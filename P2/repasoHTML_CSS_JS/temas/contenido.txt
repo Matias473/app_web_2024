@@ -1,0 +1,20 @@
+Estos son los temas de HTML Repaso
+
+** HTML **
+    1. HTML ¿Que es y como funciona?
+        (HyperText Markup Languaje) es el lenguaje estandar utilizado para crear y estructuras paginas web. no es un lenguaje de programacion, sino un lenguaje de marcado, lo que significa que su principal funcion es organizar y definir el contenido de una pagina web mediante Etiquetas
+    2. Etiquetas
+    3. Estructura basica de una pagina web
+    4. Textos
+    5. Listas
+    6. Imagenes
+    7. tablas
+    8. Formularios
+    9. Enlaces o Hipervinculos (links)
+    10. contenido embedido
+
+** CSS **
+    11. CSS
+
+** JS **
+    12. JavaScript
