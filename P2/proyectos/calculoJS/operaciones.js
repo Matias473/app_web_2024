@@ -9,7 +9,7 @@ function operacion() {
     //el isNaN es una funcion que verifica si son numeros o no, mandando un boleano en caso de ser o no ser.
     if (isNaN(numero1) || isNaN(numero2)) {
         alert("Por favor ingresa números válidos.")
-        // document.getElementById('tipo').innerHTML = "Por favor ingresa números válidos.";
+        document.getElementById('tipo').innerHTML = "Por favor ingresa números válidos.";
         return;
     }
     
