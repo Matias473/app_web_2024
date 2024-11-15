@@ -1,0 +1,8 @@
+{% block content %}
+
+    <script>
+        alert('esta pagina no exite, lo voy a redirigir a la pagina de inicio');
+
+        location.href = '{% url "inicio" %}'
+    </script>  
+{% endblock content %}
