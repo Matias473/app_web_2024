@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Inicio|Django Proyecto UTD
+        Inicio|PHP Proyecto UTD
     </title>
     <link rel="stylesheet" href="../css/estilos.css" type="text/css">
 </head>
@@ -12,45 +12,25 @@
     <header>
         <div id="logotipo">
             <img src="../img/logophp.png" alt="Imagen Django" title="Django">
-            <h1>Django Proyecto Web</h1>
+            <h1>PHP Proyecto Web</h1>
         </div>
     </header>
     <nav>
         <ul>
             <li><a href="../index.html" >Inicio</a></li>
+            <li><a href="acercade.html">Acerca de</a></li>
             <li><a href="mision.html">Mision</a></li>
             <li><a href="vision.html">Vision</a></li>
-            <li><a href="acercade.html">Acerca de</a></li>
         </ul>
     </nav>
     <section id="content">
        <div class="box">
-            <h1>vision</h1>
-            <h2>Soy vision</h2>
+            <h1>Vision</h1>
             <hr>
-            <p>Ser una universidad de referencia nacional e internacional por la calidad de su educación, innovación tecnológica y compromiso social. Aspiramos a formar profesionales competentes, éticos y emprendedores que generen soluciones sostenibles a los desafíos del mundo moderno. Contribuimos al desarrollo de la región y del país mediante programas académicos de excelencia, investigación de impacto y proyectos que transforman positivamente a la sociedad. Buscamos construir un futuro mejor, guiados por valores, responsabilidad social y colaboración global.</p>
        </div>
     </section>
     <footer>
-        <p>Curso de Django con Dagonline &copy; 2024 | <span id="visit-date"></span></p>
+        <p>Curso PHP con Matias R.G &copy; 2024</p>
     </footer>
-    
-    <script>
-        // Obtiene el elemento con el id "visit-date"
-        const visitDateElement = document.getElementById("visit-date");
-    
-        // Obtiene la fecha actual
-        const today = new Date();
-    
-        // Formatea la fecha al estilo DD/MM/YY
-        const formattedDate = today.toLocaleDateString("es-ES", {
-            day: '2-digit',
-            month: '2-digit',
-            year: '2-digit'
-        });
-    
-        // Inserta la fecha formateada en el elemento
-        visitDateElement.textContent = `Visitado el: ${formattedDate}`;
-    </script>
 </body>
 </html>

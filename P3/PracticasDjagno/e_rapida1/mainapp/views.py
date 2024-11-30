@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,HttpResponse
 
 # Create your views here.
 def index(request):
@@ -6,21 +6,27 @@ def index(request):
         'title':'Inicio Pagina Principal',
         'content':'..:: !Bienvenido a mi pagina principal! ::..'
     })
-
+    
 def about(request):
+    mensaje='Bienvenido mi nombre es: Matias Rosales...'
     return render(request,'mainapp/about.html',{
-        'title':'sobre mi',
-        'content':'..:: !hola! soy about ::..'
+        'title':'Acerca de Nosotros',
+        'content':'Somos un grupo de desarrolladores de sitios multiplataforma ',
+        'mensaje': mensaje
     })
 
 def mision(request):
+    mensaje='Bienvenido mi nombre es: Matias Rosales...'
     return render(request,'mainapp/mision.html',{
-        'title':'mision',
-        'content':'..:: !hola! soy mision ::..'
+        'title':'Nuestra Mision',
+        'content':'Somos un grupo que tiene muchas misiones',
+        'mensaje': mensaje
     })
 
 def vision(request):
+    mensaje='Bienvenido mi nombre es: Matias Rosales...'
     return render(request,'mainapp/vision.html',{
-        'title':'vision',
-        'content':'..:: !hola!  soy vision ::..'
+        'title':'Nuestra Vision',
+        'content':'Queremos que todos tengan una pagina bonita',
+        'mensaje': mensaje
     })
